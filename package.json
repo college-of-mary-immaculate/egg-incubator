@@ -1,0 +1,15 @@
+{
+  "name": "fuzzy-simulation",
+  "version": "1.0.0",
+  "description": "A simulation of fuzzy logic",
+  "scripts": {
+    "build": "parcel build --public-url https://mikeru02.github.io/college-of-mary-immaculate/egg-incubator src/index.html && rm -rf docs && mv dist docs && cp -r src/assets docs/assets",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
