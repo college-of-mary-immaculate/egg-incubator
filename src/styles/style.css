@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --black: #1b1b1b;
+    --white: #f5f5f5;
+}
+
+main {
+    overflow-x: hidden;
+}
+
+.input-section{
+    margin-top: 1rem;
+}
+
+.param-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container{
+    flex-flow: column wrap;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+}
+
+.content-container p{
+    text-align: left;
+}
+
+.sim-area{
+    min-height: 50vh;
+    border: solid red;
+}
+
+#effect-area{
+    position: absolute;
+    width: 100vw;
+    min-height: 50vh;
+    z-index: -9999;
+}
+
+#egg-area{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.egg-timer-container{
+    display: grid;
+    justify-items: center;
+}

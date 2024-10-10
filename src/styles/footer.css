@@ -1,0 +1,21 @@
+footer{
+    width: 100vw;
+    height: auto;
+    background-color: var(--black);
+}
+
+.developer, .educ{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--white);
+}
+
+.developer p{
+    font-family: "Cabin", sans-serif;
+    color: var(--white);
+}
+
+.educ p{
+    font-family: "Cabin", sans-serif;
+    color: var(--white);
+}

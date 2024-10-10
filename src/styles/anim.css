@@ -1,0 +1,18 @@
+.wind-img, .humid-img{
+    position: absolute;
+    font-family: "Vast Shadow", sans-serif;
+    font-size: 1rem;
+    color: #2d6a4f;
+    animation: line linear; 
+    width: 30px;
+    height: auto;
+}
+
+@keyframes line {
+    from {
+        transform: translateX(-5vw);
+    }
+    to {
+        transform: translateX(105vw);
+    }
+}
